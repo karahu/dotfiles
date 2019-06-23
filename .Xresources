@@ -19,6 +19,8 @@ URxvt.transparent: true
 URxvt.shading: 30
 URxvt.foreground: #eeeeee
 !URxvt.background: #4d3300
+URxvt.internalBorder: 20
+URxvt.blurRadius: 10
 
 *background:                      #222D31
 *foreground:                      #d8d8d8
@@ -73,7 +75,7 @@ URxvt.font:                       9x15,xft:TerminessTTFNerdFontMono
 URxvt.depth:                      32
 !URxvt.background:                 [100]#222D31
 URxvt*scrollBar:                  false
-URxvt*mouseWheelScrollPage:       false
+URxvt*mouseWheelScrollPage:       true
 URxvt*cursorBlink:                true
 !URxvt*background:                 black
 URxvt*foreground:                 grey
